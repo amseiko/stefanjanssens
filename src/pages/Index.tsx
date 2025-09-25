@@ -34,7 +34,7 @@ const Index = () => {
                   </div>
                   <h2 className="text-2xl font-semibold">Music</h2>
                   <p className="text-muted-foreground text-center">
-                    Listen to my latest tracks and releases
+                    Listen to my latest tracks, collaborations and remixes
                   </p>
                 </div>
               </Card>
@@ -57,7 +57,7 @@ const Index = () => {
                     <ExternalLink className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity" />
                   </h2>
                   <p className="text-muted-foreground text-center">
-                    Explore my digital projects and creative work
+                    2nd.digital
                   </p>
                 </div>
               </Card>
