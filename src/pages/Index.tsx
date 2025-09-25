@@ -14,10 +14,10 @@ const Index = () => {
           
           {/* Hero Section */}
           <div className="mb-16 space-y-6">
-            <h1 className="text-6xl md:text-8xl font-bold bg-gradient-accent bg-clip-text text-transparent">
-              AMSEIKO
+            <h1 className="text-6xl md:text-8xl font-bold bg-gradient-accent bg-clip-text text-transparent font-helvetica">
+              STEFAN JANSSENS
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl">
+            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl font-helvetica">
               Musician & Digital Creator
             </p>
           </div>
@@ -67,7 +67,7 @@ const Index = () => {
 
           {/* Footer */}
           <div className="mt-16 text-muted-foreground">
-            <p className="text-sm">© 2024 AMSEIKO</p>
+            <p className="text-sm font-helvetica">© 2024 Stefan Janssens</p>
           </div>
           
         </div>

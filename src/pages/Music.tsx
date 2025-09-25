@@ -25,10 +25,10 @@ const Music = () => {
           
           {/* Title */}
           <div className="text-center mb-16">
-            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-accent bg-clip-text text-transparent mb-4">
+            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-accent bg-clip-text text-transparent mb-4 font-helvetica">
               Music
             </h1>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-muted-foreground font-helvetica">
               Listen to my latest tracks and releases
             </p>
           </div>
@@ -87,7 +87,7 @@ const Music = () => {
                   scrolling="no" 
                   frameBorder="no" 
                   allow="autoplay"
-                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/amseiko&color=%23a855f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/amseiko&color=%23d4af37&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
                   className="rounded-lg"
                 ></iframe>
               </div>
@@ -99,7 +99,7 @@ const Music = () => {
               <div className="aspect-video w-full">
                 <iframe 
                   style={{border: 0, width: '100%', height: '100%'}} 
-                  src="https://bandcamp.com/EmbeddedPlayer/artist=amseiko/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+                  src="https://bandcamp.com/EmbeddedPlayer/artist=amseiko/size=large/bgcol=0f0f0f/linkcol=d4af37/transparent=true/"
                   seamless
                   className="rounded-lg"
                 >
