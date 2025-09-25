@@ -67,7 +67,7 @@ const Index = () => {
 
           {/* Footer */}
           <div className="mt-16 text-muted-foreground">
-            <p className="text-sm font-helvetica">© 2024 Stefan Janssens</p>
+            <p className="text-sm font-helvetica">© 2025 Stefan Janssens</p>
           </div>
           
         </div>
