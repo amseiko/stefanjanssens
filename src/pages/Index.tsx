@@ -14,7 +14,7 @@ const Index = () => {
           
           {/* Hero Section */}
           <div className="mb-16 space-y-6">
-            <h1 className="text-6xl md:text-8xl font-bold bg-gradient-accent bg-clip-text text-transparent font-helvetica">
+            <h1 className="text-5xl md:text-6xl font-bold bg-gradient-accent bg-clip-text text-transparent font-helvetica">
               STEFAN JANSSENS
             </h1>
             <div className="flex items-center justify-center">
@@ -29,8 +29,8 @@ const Index = () => {
             
             {/* Music Card */}
             <Link to="/music">
-              <Card className="group p-8 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
-                <div className="flex flex-col items-center space-y-4">
+              <Card className="group p-8 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer h-full">
+                <div className="flex flex-col items-center space-y-4 h-full justify-center min-h-[200px]">
                   <div className="p-4 rounded-full bg-gradient-accent shadow-glow">
                     <Music className="w-8 h-8 text-primary-foreground" />
                   </div>
@@ -49,8 +49,8 @@ const Index = () => {
               rel="noopener noreferrer"
               className="block group"
             >
-              <Card className="p-8 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
-                <div className="flex flex-col items-center space-y-4">
+              <Card className="p-8 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer h-full">
+                <div className="flex flex-col items-center space-y-4 h-full justify-center min-h-[200px]">
                   <div className="p-4 rounded-full bg-secondary shadow-card">
                     <Briefcase className="w-8 h-8 text-secondary-foreground" />
                   </div>
