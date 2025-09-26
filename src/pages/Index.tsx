@@ -17,9 +17,11 @@ const Index = () => {
             <h1 className="text-6xl md:text-8xl font-bold bg-gradient-accent bg-clip-text text-transparent font-helvetica">
               STEFAN JANSSENS
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl font-helvetica">
-              Musician & Digital Creator
-            </p>
+            <div className="flex items-center justify-center">
+              <p className="text-xl md:text-2xl text-muted-foreground font-helvetica">
+                Musician & Digital Creator
+              </p>
+            </div>
           </div>
 
           {/* Navigation Cards */}
