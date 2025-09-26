@@ -51,8 +51,8 @@ const Index = () => {
             >
               <Card className="p-8 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer h-full">
                 <div className="flex flex-col items-center space-y-4 h-full justify-center min-h-[200px]">
-                  <div className="p-4 rounded-full bg-secondary shadow-card">
-                    <Briefcase className="w-8 h-8 text-secondary-foreground" />
+                  <div className="p-4 rounded-full bg-gradient-accent shadow-glow">
+                    <Briefcase className="w-8 h-8 text-primary-foreground" />
                   </div>
                   <h2 className="text-2xl font-semibold flex items-center gap-2">
                     Work
