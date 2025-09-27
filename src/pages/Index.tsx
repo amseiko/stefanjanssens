@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ExternalLink, Music, Briefcase } from "lucide-react";
+import { ExternalLink, Music, Briefcase, Users } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Index = () => {
@@ -25,7 +25,7 @@ const Index = () => {
           </div>
 
           {/* Navigation Cards */}
-          <div className="grid md:grid-cols-2 gap-8 max-w-2xl w-full">
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl w-full">
             
             {/* Music Card */}
             <Link to="/music">
@@ -64,6 +64,21 @@ const Index = () => {
                 </div>
               </Card>
             </a>
+
+            {/* Social Card */}
+            <Link to="/social">
+              <Card className="group p-8 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer h-full">
+                <div className="flex flex-col items-center space-y-4 h-full justify-center min-h-[200px]">
+                  <div className="p-4 rounded-full bg-gradient-accent shadow-glow">
+                    <Users className="w-8 h-8 text-primary-foreground" />
+                  </div>
+                  <h2 className="text-2xl font-semibold">Social</h2>
+                  <p className="text-muted-foreground text-center">
+                    Connect with me on social media
+                  </p>
+                </div>
+              </Card>
+            </Link>
             
           </div>
 
