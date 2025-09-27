@@ -59,7 +59,7 @@ const Index = () => {
                     <ExternalLink className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity" />
                   </h2>
                   <p className="text-muted-foreground text-center">
-                    2nd.digital
+                    2.nd digital: an network of agencies
                   </p>
                 </div>
               </Card>
