@@ -63,7 +63,7 @@ const Social = () => {
             Social Media
           </h1>
           <p className="text-xl text-muted-foreground font-helvetica">
-            Connect with me across various platforms
+            Stay connected and collaborate
           </p>
         </div>
 
