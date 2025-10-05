@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ExternalLink, ArrowLeft } from "lucide-react";
+import { ExternalLink, ArrowLeft, Music as MusicIcon } from "lucide-react";
 import { Link } from "react-router-dom";
+import tkoImage from "@/assets/tko-band.jpg";
 
 const Music = () => {
   return (
@@ -33,10 +34,27 @@ const Music = () => {
             </p>
           </div>
 
+          {/* Featured Bandcamp Release */}
+          <div className="mb-16">
+            <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
+              <h3 className="text-xl font-semibold mb-4 text-center">Latest Release</h3>
+              <div className="flex justify-center">
+                <iframe 
+                  style={{border: 0, width: '700px', height: '406px'}} 
+                  src="https://bandcamp.com/EmbeddedPlayer/album=701429186/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"
+                  seamless
+                  className="rounded-lg max-w-full"
+                >
+                  <a href="https://amseiko.bandcamp.com/album/in-venlo">In Venlo by amseiko</a>
+                </iframe>
+              </div>
+            </Card>
+          </div>
+
           {/* Platform Links - Current Projects */}
           <div className="mb-12">
             <h2 className="text-2xl font-semibold mb-6 text-center">Listen Now</h2>
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               
               {/* SoundCloud */}
               <a 
@@ -47,9 +65,12 @@ const Music = () => {
               >
                 <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
                   <div className="flex items-center justify-between">
-                    <div>
-                      <h3 className="text-xl font-semibold mb-2">SoundCloud</h3>
-                      <p className="text-muted-foreground">Stream my music collection</p>
+                    <div className="flex items-center gap-3">
+                      <MusicIcon className="w-6 h-6 text-primary" />
+                      <div>
+                        <h3 className="text-xl font-semibold mb-2">SoundCloud</h3>
+                        <p className="text-muted-foreground">Stream my music collection</p>
+                      </div>
                     </div>
                     <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
                   </div>
@@ -65,9 +86,12 @@ const Music = () => {
               >
                 <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
                   <div className="flex items-center justify-between">
-                    <div>
-                      <h3 className="text-xl font-semibold mb-2">Bandcamp</h3>
-                      <p className="text-muted-foreground">Support and download releases</p>
+                    <div className="flex items-center gap-3">
+                      <MusicIcon className="w-6 h-6 text-primary" />
+                      <div>
+                        <h3 className="text-xl font-semibold mb-2">Bandcamp</h3>
+                        <p className="text-muted-foreground">Support and download releases</p>
+                      </div>
                     </div>
                     <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
                   </div>
@@ -83,9 +107,12 @@ const Music = () => {
               >
                 <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
                   <div className="flex items-center justify-between">
-                    <div>
-                      <h3 className="text-xl font-semibold mb-2">Apple Music</h3>
-                      <p className="text-muted-foreground">Curated playlists</p>
+                    <div className="flex items-center gap-3">
+                      <MusicIcon className="w-6 h-6 text-primary" />
+                      <div>
+                        <h3 className="text-xl font-semibold mb-2">Apple Music</h3>
+                        <p className="text-muted-foreground">Curated playlists</p>
+                      </div>
                     </div>
                     <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
                   </div>
@@ -101,9 +128,12 @@ const Music = () => {
               >
                 <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
                   <div className="flex items-center justify-between">
-                    <div>
-                      <h3 className="text-xl font-semibold mb-2">YouTube Music</h3>
-                      <p className="text-muted-foreground">Video playlists</p>
+                    <div className="flex items-center gap-3">
+                      <MusicIcon className="w-6 h-6 text-primary" />
+                      <div>
+                        <h3 className="text-xl font-semibold mb-2">YouTube Music</h3>
+                        <p className="text-muted-foreground">Video playlists</p>
+                      </div>
                     </div>
                     <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
                   </div>
@@ -119,9 +149,12 @@ const Music = () => {
               >
                 <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
                   <div className="flex items-center justify-between">
-                    <div>
-                      <h3 className="text-xl font-semibold mb-2">Spotify</h3>
-                      <p className="text-muted-foreground">Streaming playlists</p>
+                    <div className="flex items-center gap-3">
+                      <MusicIcon className="w-6 h-6 text-primary" />
+                      <div>
+                        <h3 className="text-xl font-semibold mb-2">Spotify</h3>
+                        <p className="text-muted-foreground">Streaming playlists</p>
+                      </div>
                     </div>
                     <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
                   </div>
@@ -134,22 +167,71 @@ const Music = () => {
           {/* TKO - Former Band */}
           <div className="mb-16">
             <h2 className="text-2xl font-semibold mb-6 text-center">TKO (Former Band)</h2>
-            <a 
-              href="https://tko-hongkong.bandcamp.com/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="block group max-w-md mx-auto"
-            >
-              <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <h3 className="text-xl font-semibold mb-2">TKO on Bandcamp</h3>
-                    <p className="text-muted-foreground">Hong Kong-based Ambilectro project</p>
+            <div className="max-w-4xl mx-auto">
+              <div className="mb-8">
+                <img 
+                  src={tkoImage} 
+                  alt="TKO band performing live" 
+                  className="rounded-lg w-full h-auto shadow-glow"
+                />
+              </div>
+              <a 
+                href="https://tko-hongkong.bandcamp.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block group max-w-md mx-auto"
+              >
+                <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <MusicIcon className="w-6 h-6 text-primary" />
+                      <div>
+                        <h3 className="text-xl font-semibold mb-2">Bandcamp (TKO)</h3>
+                        <p className="text-muted-foreground">Hong Kong-based Ambilectro project</p>
+                      </div>
+                    </div>
+                    <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
                   </div>
-                  <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
-                </div>
-              </Card>
-            </a>
+                </Card>
+              </a>
+            </div>
+          </div>
+
+          {/* More Bandcamp Releases */}
+          <div className="mb-16">
+            <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
+              <h3 className="text-xl font-semibold mb-4 text-center">More Releases</h3>
+              <div className="flex flex-col items-center space-y-6">
+                
+                <iframe 
+                  style={{border: 0, width: '700px', height: '373px'}} 
+                  src="https://bandcamp.com/EmbeddedPlayer/album=1140740819/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/"
+                  seamless
+                  className="rounded-lg max-w-full"
+                >
+                  <a href="https://amseiko.bandcamp.com/album/things-must-change-depeche-mode-81-85-covers">things must change - depeche mode 81-85 covers by minimalnomad, sekret oktober, amseiko</a>
+                </iframe>
+
+                <iframe 
+                  style={{border: 0, width: '700px', height: '340px'}} 
+                  src="https://bandcamp.com/EmbeddedPlayer/album=2520545409/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/"
+                  seamless
+                  className="rounded-lg max-w-full"
+                >
+                  <a href="https://amseiko.bandcamp.com/album/in-sollentuna">In Sollentuna by amseiko</a>
+                </iframe>
+
+                <iframe 
+                  style={{border: 0, width: '700px', height: '274px'}} 
+                  src="https://bandcamp.com/EmbeddedPlayer/album=2917317512/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/"
+                  seamless
+                  className="rounded-lg max-w-full"
+                >
+                  <a href="https://amseiko.bandcamp.com/album/in-enoshima">In Enoshima by amseiko</a>
+                </iframe>
+
+              </div>
+            </Card>
           </div>
 
           {/* Press & Reviews */}
@@ -161,8 +243,9 @@ const Music = () => {
               <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
                 <blockquote className="mb-4">
                   <p className="text-lg italic text-muted-foreground mb-2">
-                    "minimalnomad's sweetened vocals still provided enough variation to make the difference... they flex a bit more of their own identity here too…it speaks incredibly strongly on behalf of the excitement that amseiko can create with his music"
+                    "I'd also argue that they flex a bit more of their own identity here too…it speaks incredibly strongly on behalf of the excitement that amseiko can create with his music, and also for the bold & beautiful mix of dark angelic sound minimalnomad is capable of as well."
                   </p>
+                  <cite className="text-sm text-muted-foreground">— On "Boys Say Go"</cite>
                 </blockquote>
                 <a 
                   href="https://sleepingbagstudios.ca/things-must-change-81-85-depeche-mode-remake/" 
@@ -212,54 +295,6 @@ const Music = () => {
               </Card>
 
             </div>
-          </div>
-
-          {/* Bandcamp Releases */}
-          <div className="space-y-8">
-            
-            <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
-              <h3 className="text-xl font-semibold mb-4 text-center">Bandcamp Releases</h3>
-              <div className="flex flex-col items-center space-y-6">
-                
-                <iframe 
-                  style={{border: 0, width: '700px', height: '406px'}} 
-                  src="https://bandcamp.com/EmbeddedPlayer/album=701429186/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"
-                  seamless
-                  className="rounded-lg max-w-full"
-                >
-                  <a href="https://amseiko.bandcamp.com/album/in-venlo">In Venlo by amseiko</a>
-                </iframe>
-
-                <iframe 
-                  style={{border: 0, width: '700px', height: '373px'}} 
-                  src="https://bandcamp.com/EmbeddedPlayer/album=1140740819/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/"
-                  seamless
-                  className="rounded-lg max-w-full"
-                >
-                  <a href="https://amseiko.bandcamp.com/album/things-must-change-depeche-mode-81-85-covers">things must change - depeche mode 81-85 covers by minimalnomad, sekret oktober, amseiko</a>
-                </iframe>
-
-                <iframe 
-                  style={{border: 0, width: '700px', height: '340px'}} 
-                  src="https://bandcamp.com/EmbeddedPlayer/album=2520545409/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/"
-                  seamless
-                  className="rounded-lg max-w-full"
-                >
-                  <a href="https://amseiko.bandcamp.com/album/in-sollentuna">In Sollentuna by amseiko</a>
-                </iframe>
-
-                <iframe 
-                  style={{border: 0, width: '700px', height: '274px'}} 
-                  src="https://bandcamp.com/EmbeddedPlayer/album=2917317512/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/"
-                  seamless
-                  className="rounded-lg max-w-full"
-                >
-                  <a href="https://amseiko.bandcamp.com/album/in-enoshima">In Enoshima by amseiko</a>
-                </iframe>
-
-              </div>
-            </Card>
-            
           </div>
 
         </div>
