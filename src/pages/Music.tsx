@@ -34,7 +34,7 @@ const Music = () => {
           </div>
 
           {/* Platform Links */}
-          <div className="grid md:grid-cols-2 gap-8 mb-16">
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
             
             {/* SoundCloud */}
             <a 
@@ -66,6 +66,24 @@ const Music = () => {
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Bandcamp</h3>
                     <p className="text-muted-foreground">Support and download releases</p>
+                  </div>
+                  <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
+                </div>
+              </Card>
+            </a>
+
+            {/* Apple Music */}
+            <a 
+              href="https://music.apple.com/gb/playlist/take-me-to-the-stars/pl.u-NpXm9dasMp2qb" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block group"
+            >
+              <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h3 className="text-xl font-semibold mb-2">Apple Music</h3>
+                    <p className="text-muted-foreground">Listen to curated playlists</p>
                   </div>
                   <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
                 </div>
