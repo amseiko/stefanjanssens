@@ -33,63 +33,185 @@ const Music = () => {
             </p>
           </div>
 
-          {/* Platform Links */}
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
-            
-            {/* SoundCloud */}
-            <a 
-              href="https://soundcloud.com/amseiko" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="block group"
-            >
-              <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <h3 className="text-xl font-semibold mb-2">SoundCloud</h3>
-                    <p className="text-muted-foreground">Stream my music collection</p>
+          {/* Platform Links - Current Projects */}
+          <div className="mb-12">
+            <h2 className="text-2xl font-semibold mb-6 text-center">Listen Now</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              
+              {/* SoundCloud */}
+              <a 
+                href="https://soundcloud.com/amseiko" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block group"
+              >
+                <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="text-xl font-semibold mb-2">SoundCloud</h3>
+                      <p className="text-muted-foreground">Stream my music collection</p>
+                    </div>
+                    <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
                   </div>
-                  <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
-                </div>
-              </Card>
-            </a>
+                </Card>
+              </a>
 
-            {/* Bandcamp */}
-            <a 
-              href="https://amseiko.bandcamp.com/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="block group"
-            >
-              <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <h3 className="text-xl font-semibold mb-2">Bandcamp</h3>
-                    <p className="text-muted-foreground">Support and download releases</p>
+              {/* Bandcamp */}
+              <a 
+                href="https://amseiko.bandcamp.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block group"
+              >
+                <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="text-xl font-semibold mb-2">Bandcamp</h3>
+                      <p className="text-muted-foreground">Support and download releases</p>
+                    </div>
+                    <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
                   </div>
-                  <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
-                </div>
-              </Card>
-            </a>
+                </Card>
+              </a>
 
-            {/* Apple Music */}
+              {/* Apple Music */}
+              <a 
+                href="https://music.apple.com/gb/playlist/take-me-to-the-stars/pl.u-NpXm9dasMp2qb" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block group"
+              >
+                <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="text-xl font-semibold mb-2">Apple Music</h3>
+                      <p className="text-muted-foreground">Curated playlists</p>
+                    </div>
+                    <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
+                  </div>
+                </Card>
+              </a>
+
+              {/* YouTube Music */}
+              <a 
+                href="https://music.youtube.com/playlist?list=PLSA8iHViFJXQFoBjbgy9DXGijiLxvLxg_&si=eGpytTg7aFx3JDw2" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block group"
+              >
+                <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="text-xl font-semibold mb-2">YouTube Music</h3>
+                      <p className="text-muted-foreground">Video playlists</p>
+                    </div>
+                    <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
+                  </div>
+                </Card>
+              </a>
+
+              {/* Spotify */}
+              <a 
+                href="https://open.spotify.com/user/amseiko" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block group"
+              >
+                <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="text-xl font-semibold mb-2">Spotify</h3>
+                      <p className="text-muted-foreground">Streaming playlists</p>
+                    </div>
+                    <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
+                  </div>
+                </Card>
+              </a>
+              
+            </div>
+          </div>
+
+          {/* TKO - Former Band */}
+          <div className="mb-16">
+            <h2 className="text-2xl font-semibold mb-6 text-center">TKO (Former Band)</h2>
             <a 
-              href="https://music.apple.com/gb/playlist/take-me-to-the-stars/pl.u-NpXm9dasMp2qb" 
+              href="https://tko-hongkong.bandcamp.com/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="block group"
+              className="block group max-w-md mx-auto"
             >
               <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer">
                 <div className="flex items-center justify-between">
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">Apple Music</h3>
-                    <p className="text-muted-foreground">Listen to curated playlists</p>
+                    <h3 className="text-xl font-semibold mb-2">TKO on Bandcamp</h3>
+                    <p className="text-muted-foreground">Hong Kong-based Ambilectro project</p>
                   </div>
                   <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
                 </div>
               </Card>
             </a>
-            
+          </div>
+
+          {/* Press & Reviews */}
+          <div className="mb-16">
+            <h2 className="text-2xl font-semibold mb-6 text-center">Press & Reviews</h2>
+            <div className="space-y-6">
+              
+              {/* Review 1 */}
+              <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
+                <blockquote className="mb-4">
+                  <p className="text-lg italic text-muted-foreground mb-2">
+                    "minimalnomad's sweetened vocals still provided enough variation to make the difference... they flex a bit more of their own identity here too…it speaks incredibly strongly on behalf of the excitement that amseiko can create with his music"
+                  </p>
+                </blockquote>
+                <a 
+                  href="https://sleepingbagstudios.ca/things-must-change-81-85-depeche-mode-remake/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-primary hover:underline"
+                >
+                  <span>Read full review - Things Must Change</span>
+                  <ExternalLink className="w-4 h-4" />
+                </a>
+              </Card>
+
+              {/* Review 2 */}
+              <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
+                <blockquote className="mb-4">
+                  <p className="text-lg italic text-muted-foreground mb-2">
+                    "TKO makes their ambient-electro grooves with real emotional depth... The beat is inviting, the singing is enchanting"
+                  </p>
+                </blockquote>
+                <a 
+                  href="https://sleepingbagstudios.ca/tko-moving-out/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-primary hover:underline"
+                >
+                  <span>Read full review - TKO Moving Out</span>
+                  <ExternalLink className="w-4 h-4" />
+                </a>
+              </Card>
+
+              {/* Review 3 */}
+              <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
+                <blockquote className="mb-4">
+                  <p className="text-lg italic text-muted-foreground mb-2">
+                    "This is music made without regard for the mainstream…ideas unfiltered and as pure as they come"
+                  </p>
+                </blockquote>
+                <a 
+                  href="https://sleepingbagstudios.ca/tko-tung-chung-may-day/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-primary hover:underline"
+                >
+                  <span>Read full review - TKO Tung Chung May Day</span>
+                  <ExternalLink className="w-4 h-4" />
+                </a>
+              </Card>
+
+            </div>
           </div>
 
           {/* Bandcamp Releases */}
