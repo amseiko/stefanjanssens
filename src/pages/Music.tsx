@@ -62,7 +62,7 @@ const Music = () => {
               <div className="flex justify-center">
                 <iframe 
                   style={{border: 0, width: '700px', height: '373px'}} 
-                  src="https://bandcamp.com/EmbeddedPlayer/album=1140740819/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/"
+                  src="https://bandcamp.com/EmbeddedPlayer/album=1140740819/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/"
                   seamless
                   className="rounded-lg max-w-full"
                 >
@@ -214,7 +214,7 @@ const Music = () => {
                 
                 <iframe 
                   style={{border: 0, width: '700px', height: '406px'}} 
-                  src="https://bandcamp.com/EmbeddedPlayer/album=701429186/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"
+                  src="https://bandcamp.com/EmbeddedPlayer/album=701429186/size=large/bgcol=333333/linkcol=ffffff/artwork=small/"
                   seamless
                   className="rounded-lg max-w-full"
                 >
@@ -223,7 +223,7 @@ const Music = () => {
 
                 <iframe
                   style={{border: 0, width: '700px', height: '340px'}} 
-                  src="https://bandcamp.com/EmbeddedPlayer/album=2520545409/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/"
+                  src="https://bandcamp.com/EmbeddedPlayer/album=2520545409/size=large/bgcol=333333/linkcol=e99708/artwork=small/"
                   seamless
                   className="rounded-lg max-w-full"
                 >
@@ -232,7 +232,7 @@ const Music = () => {
 
                 <iframe 
                   style={{border: 0, width: '700px', height: '274px'}} 
-                  src="https://bandcamp.com/EmbeddedPlayer/album=2917317512/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/"
+                  src="https://bandcamp.com/EmbeddedPlayer/album=2917317512/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/"
                   seamless
                   className="rounded-lg max-w-full"
                 >
