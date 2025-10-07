@@ -15,7 +15,7 @@ const Index = () => {
           {/* Hero Section */}
           <div className="mb-16 space-y-6">
             <h1 className="text-5xl md:text-6xl font-bold bg-gradient-accent bg-clip-text text-transparent font-helvetica">
-              STEFAN JANSSENS
+              Stefan Janssens
             </h1>
             <div className="flex items-center justify-center">
               <p className="text-xl md:text-2xl text-muted-foreground font-helvetica">
