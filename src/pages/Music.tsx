@@ -34,47 +34,8 @@ const Music = () => {
             </p>
           </div>
 
-          {/* Featured Quote - Boys Say Go */}
+          {/* Platform Links */}
           <div className="mb-12">
-            <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
-              <blockquote className="mb-4">
-                <p className="text-lg italic text-muted-foreground mb-2">
-                  "The refreshing spin that minimalnomad and amseiko bring to this song is practically freaking crucial in regards to the longterm survival of "Boys Say Go" and introducing it to a whole new generation of listeners. I'd also argue that they flex a bit more of their own identity here too…it speaks incredibly strongly on behalf of the excitement that amseiko can create with his music, and also for the bold & beautiful mix of dark angelic sound minimalnomad is capable of as well. To me, what you'll hear on "Boys Say Go" is one of the biggest wins on this record."
-                </p>
-                <cite className="text-sm text-muted-foreground">— On "Boys Say Go"</cite>
-              </blockquote>
-              <a 
-                href="https://sleepingbagstudios.ca/things-must-change-81-85-depeche-mode-remake/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-primary hover:underline"
-              >
-                <span>Read full review</span>
-                <ExternalLink className="w-4 h-4" />
-              </a>
-            </Card>
-          </div>
-
-          {/* Things Must Change Widget */}
-          <div className="mb-16">
-            <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
-              <h3 className="text-xl font-semibold mb-4 text-center">Things Must Change - Depeche Mode Covers</h3>
-              <div className="flex justify-center">
-                <iframe 
-                  style={{border: 0, width: '700px', height: '373px'}} 
-                  src="https://bandcamp.com/EmbeddedPlayer/album=1140740819/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/"
-                  seamless
-                  className="rounded-lg max-w-full"
-                >
-                  <a href="https://amseiko.bandcamp.com/album/things-must-change-depeche-mode-81-85-covers">things must change - depeche mode 81-85 covers by minimalnomad, sekret oktober, amseiko</a>
-                </iframe>
-              </div>
-            </Card>
-          </div>
-
-          {/* Platform Links - Current Projects */}
-          <div className="mb-12">
-            <h2 className="text-2xl font-semibold mb-6 text-center">Listen More</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               
               {/* SoundCloud */}
@@ -204,6 +165,44 @@ const Music = () => {
               </a>
               
             </div>
+          </div>
+
+          {/* Things Must Change Widget */}
+          <div className="mb-16">
+            <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
+              <h3 className="text-xl font-semibold mb-4 text-center">Things Must Change - Depeche Mode Covers</h3>
+              <div className="flex justify-center">
+                <iframe 
+                  style={{border: 0, width: '700px', height: '373px'}} 
+                  src="https://bandcamp.com/EmbeddedPlayer/album=1140740819/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/"
+                  seamless
+                  className="rounded-lg max-w-full"
+                >
+                  <a href="https://amseiko.bandcamp.com/album/things-must-change-depeche-mode-81-85-covers">things must change - depeche mode 81-85 covers by minimalnomad, sekret oktober, amseiko</a>
+                </iframe>
+              </div>
+            </Card>
+          </div>
+
+          {/* Featured Quote - Boys Say Go */}
+          <div className="mb-12">
+            <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
+              <blockquote className="mb-4">
+                <p className="text-lg italic text-muted-foreground mb-2">
+                  "The refreshing spin that minimalnomad and amseiko bring to this song is practically freaking crucial in regards to the longterm survival of "Boys Say Go" and introducing it to a whole new generation of listeners. I'd also argue that they flex a bit more of their own identity here too…it speaks incredibly strongly on behalf of the excitement that amseiko can create with his music, and also for the bold & beautiful mix of dark angelic sound minimalnomad is capable of as well. To me, what you'll hear on "Boys Say Go" is one of the biggest wins on this record."
+                </p>
+                <cite className="text-sm text-muted-foreground">— On "Boys Say Go"</cite>
+              </blockquote>
+              <a 
+                href="https://sleepingbagstudios.ca/things-must-change-81-85-depeche-mode-remake/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-primary hover:underline"
+              >
+                <span>Read full review</span>
+                <ExternalLink className="w-4 h-4" />
+              </a>
+            </Card>
           </div>
 
           {/* More Bandcamp Releases */}
