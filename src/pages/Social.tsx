@@ -51,24 +51,29 @@ const Social = () => {
       <div className="relative z-10 container mx-auto px-6 py-16">
         
         {/* Header */}
-        <div className="mb-12">
+        <div className="flex items-center justify-between mb-12">
           <Link to="/">
-            <Button variant="outline" className="mb-8 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80">
-              <ArrowLeft className="w-4 h-4 mr-2" />
-              Back to Home
+            <Button variant="ghost" className="flex items-center gap-2 hover:bg-secondary/50">
+              <ArrowLeft className="w-4 h-4" />
+              Back
             </Button>
           </Link>
-          
-          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-accent bg-clip-text text-transparent font-helvetica mb-4">
-            Social Media
-          </h1>
-          <p className="text-xl text-muted-foreground font-helvetica">
-            Stay connected and collaborate
-          </p>
         </div>
 
-        {/* Social Links Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl">
+        <div className="max-w-4xl mx-auto">
+          
+          {/* Title */}
+          <div className="text-center mb-16">
+            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-accent bg-clip-text text-transparent mb-4 font-helvetica">
+              Social Media
+            </h1>
+            <p className="text-xl text-muted-foreground font-helvetica">
+              Stay connected and collaborate
+            </p>
+          </div>
+
+          {/* Social Links Grid */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {socialLinks.map((social, index) => (
             <a
               key={index}
@@ -98,11 +103,12 @@ const Social = () => {
           ))}
         </div>
 
-        {/* Footer */}
-        <div className="mt-16 text-center text-muted-foreground">
-          <p className="text-sm font-helvetica">© 2025 Stefan Janssens</p>
+          {/* Footer */}
+          <div className="text-center text-muted-foreground">
+            <p className="text-sm font-helvetica">© 2025 Stefan Janssens</p>
+          </div>
+          
         </div>
-        
       </div>
     </div>
   );
