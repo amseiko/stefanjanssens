@@ -50,8 +50,8 @@ const Music = () => {
                     <div className="flex items-center gap-3">
                       <MusicIcon className="w-6 h-6 text-primary" />
                       <div>
-                        <h3 className="text-xl font-semibold mb-2">SoundCloud</h3>
-                        <p className="text-muted-foreground">Stream my music collection</p>
+                        <h3 className="text-xl font-semibold mb-2 font-helvetica">SoundCloud</h3>
+                        <p className="text-muted-foreground font-helvetica">Stream my music collection</p>
                       </div>
                     </div>
                     <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
@@ -71,8 +71,8 @@ const Music = () => {
                     <div className="flex items-center gap-3">
                       <MusicIcon className="w-6 h-6 text-primary" />
                       <div>
-                        <h3 className="text-xl font-semibold mb-2">Bandcamp</h3>
-                        <p className="text-muted-foreground">Support and download releases</p>
+                        <h3 className="text-xl font-semibold mb-2 font-helvetica">Bandcamp</h3>
+                        <p className="text-muted-foreground font-helvetica">Support and download releases</p>
                       </div>
                     </div>
                     <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
@@ -92,8 +92,8 @@ const Music = () => {
                     <div className="flex items-center gap-3">
                       <MusicIcon className="w-6 h-6 text-primary" />
                       <div>
-                        <h3 className="text-xl font-semibold mb-2">Apple Music</h3>
-                        <p className="text-muted-foreground">Curated playlists</p>
+                        <h3 className="text-xl font-semibold mb-2 font-helvetica">Apple Music</h3>
+                        <p className="text-muted-foreground font-helvetica">Curated playlists</p>
                       </div>
                     </div>
                     <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
@@ -113,8 +113,8 @@ const Music = () => {
                     <div className="flex items-center gap-3">
                       <MusicIcon className="w-6 h-6 text-primary" />
                       <div>
-                        <h3 className="text-xl font-semibold mb-2">YouTube Music</h3>
-                        <p className="text-muted-foreground">Video playlists</p>
+                        <h3 className="text-xl font-semibold mb-2 font-helvetica">YouTube Music</h3>
+                        <p className="text-muted-foreground font-helvetica">Video playlists</p>
                       </div>
                     </div>
                     <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
@@ -134,8 +134,8 @@ const Music = () => {
                     <div className="flex items-center gap-3">
                       <MusicIcon className="w-6 h-6 text-primary" />
                       <div>
-                        <h3 className="text-xl font-semibold mb-2">Spotify</h3>
-                        <p className="text-muted-foreground">Streaming playlists</p>
+                        <h3 className="text-xl font-semibold mb-2 font-helvetica">Spotify</h3>
+                        <p className="text-muted-foreground font-helvetica">Streaming playlists</p>
                       </div>
                     </div>
                     <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
@@ -155,8 +155,8 @@ const Music = () => {
                     <div className="flex items-center gap-3">
                       <MusicIcon className="w-6 h-6 text-primary" />
                       <div>
-                        <h3 className="text-xl font-semibold mb-2">Bandcamp (TKO)</h3>
-                        <p className="text-muted-foreground">TKO - former band</p>
+                        <h3 className="text-xl font-semibold mb-2 font-helvetica">Bandcamp (TKO)</h3>
+                        <p className="text-muted-foreground font-helvetica">TKO - former band</p>
                       </div>
                     </div>
                     <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
@@ -170,7 +170,7 @@ const Music = () => {
           {/* Things Must Change Widget */}
           <div className="mb-16">
             <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
-              <h3 className="text-xl font-semibold mb-4 text-center">Things Must Change - Depeche Mode Covers</h3>
+              <h3 className="text-xl font-semibold mb-4 text-center font-helvetica">Things Must Change - Depeche Mode Covers</h3>
               <div className="flex justify-center">
                 <iframe 
                   style={{border: 0, width: '700px', height: '373px'}} 
@@ -208,7 +208,7 @@ const Music = () => {
           {/* More Bandcamp Releases */}
           <div className="mb-16">
             <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
-              <h3 className="text-xl font-semibold mb-4 text-center">More Releases</h3>
+              <h3 className="text-xl font-semibold mb-4 text-center font-helvetica">More Releases</h3>
               <div className="flex flex-col items-center space-y-6">
                 
                 <iframe 
@@ -244,7 +244,7 @@ const Music = () => {
 
           {/* Press & Reviews */}
           <div className="mb-16">
-            <h2 className="text-2xl font-semibold mb-6 text-center">Press & Reviews</h2>
+            <h2 className="text-2xl font-semibold mb-6 text-center font-helvetica">Press & Reviews</h2>
             <div className="space-y-6">
               
               {/* Review 1 */}

@@ -34,8 +34,8 @@ const Index = () => {
                   <div className="p-4 rounded-full bg-gradient-accent shadow-glow">
                     <Music className="w-8 h-8 text-primary-foreground" />
                   </div>
-                  <h2 className="text-2xl font-semibold">Music</h2>
-                  <p className="text-muted-foreground text-center">
+                  <h2 className="text-2xl font-semibold font-helvetica">Music</h2>
+                  <p className="text-muted-foreground text-center font-helvetica">
                     Listen to my latest tracks, collaborations and remixes
                   </p>
                 </div>
@@ -54,11 +54,11 @@ const Index = () => {
                   <div className="p-4 rounded-full bg-gradient-accent shadow-glow">
                     <Briefcase className="w-8 h-8 text-primary-foreground" />
                   </div>
-                  <h2 className="text-2xl font-semibold flex items-center gap-2">
+                  <h2 className="text-2xl font-semibold flex items-center gap-2 font-helvetica">
                     Work
                     <ExternalLink className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity" />
                   </h2>
-                  <p className="text-muted-foreground text-center">
+                  <p className="text-muted-foreground text-center font-helvetica">
                     2.nd digital<br />
                     a network of agencies
                   </p>
@@ -73,8 +73,8 @@ const Index = () => {
                   <div className="p-4 rounded-full bg-gradient-accent shadow-glow">
                     <Users className="w-8 h-8 text-primary-foreground" />
                   </div>
-                  <h2 className="text-2xl font-semibold">Social</h2>
-                  <p className="text-muted-foreground text-center">
+                  <h2 className="text-2xl font-semibold font-helvetica">Social</h2>
+                  <p className="text-muted-foreground text-center font-helvetica">
                     Connect with me on social media
                   </p>
                 </div>

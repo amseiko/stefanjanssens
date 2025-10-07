@@ -89,10 +89,10 @@ const Social = () => {
                       {social.icon}
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-foreground">
+                      <h3 className="text-lg font-semibold text-foreground font-helvetica">
                         {social.name}
                       </h3>
-                      <p className="text-sm text-muted-foreground">
+                      <p className="text-sm text-muted-foreground font-helvetica">
                         {social.description}
                       </p>
                     </div>
