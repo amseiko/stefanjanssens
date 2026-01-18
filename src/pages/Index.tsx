@@ -44,28 +44,34 @@ const Index = () => {
               </Link>
 
               {/* Work Card */}
-              <a 
-                href="https://2nd.digital" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block group"
-              >
-                <Card className="p-8 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow hover:scale-105 cursor-pointer h-full">
-                  <div className="flex flex-col items-center space-y-4 h-full justify-center min-h-[200px]">
-                    <div className="p-4 rounded-full bg-gradient-accent shadow-glow">
-                      <Briefcase className="w-8 h-8 text-primary-foreground" />
-                    </div>
-                    <h2 className="text-2xl font-semibold flex items-center gap-2 font-helvetica">
-                      Work
-                      <ExternalLink className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity" />
-                    </h2>
-                    <p className="text-muted-foreground text-center font-helvetica">
-                      2nd.digital<br />
-                      a network of agencies
-                    </p>
+              <Card className="p-8 bg-card/60 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:shadow-glow cursor-pointer h-full">
+                <div className="flex flex-col items-center space-y-4 h-full justify-center min-h-[200px]">
+                  <div className="p-4 rounded-full bg-gradient-accent shadow-glow">
+                    <Briefcase className="w-8 h-8 text-primary-foreground" />
                   </div>
-                </Card>
-              </a>
+                  <h2 className="text-2xl font-semibold font-helvetica">Work</h2>
+                  <div className="flex flex-col items-center gap-2">
+                    <a 
+                      href="https://2nd.digital" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1 font-helvetica group"
+                    >
+                      2nd.digital
+                      <ExternalLink className="w-3 h-3 opacity-50 group-hover:opacity-100 transition-opacity" />
+                    </a>
+                    <a 
+                      href="https://dotSpotlight.digital" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1 font-helvetica group"
+                    >
+                      dotSpotlight.digital
+                      <ExternalLink className="w-3 h-3 opacity-50 group-hover:opacity-100 transition-opacity" />
+                    </a>
+                  </div>
+                </div>
+              </Card>
 
               {/* Social Card */}
               <Link to="/social">
