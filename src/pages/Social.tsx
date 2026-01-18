@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Linkedin, Facebook, Twitter, Instagram, Youtube, BookOpen } from "lucide-react";
+import { ArrowLeft, Linkedin, Facebook, Twitter, Instagram, Youtube, BookOpen, Building2, GraduationCap } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Social = () => {
@@ -40,6 +40,18 @@ const Social = () => {
       url: "https://www.goodreads.com/user/show/16588007-stefan-janssens",
       icon: <BookOpen className="w-6 h-6" />,
       description: "Reading and book reviews"
+    },
+    {
+      name: "Crunchbase",
+      url: "https://www.crunchbase.com/person/stefan-janssens-41b7",
+      icon: <Building2 className="w-6 h-6" />,
+      description: "Business profile"
+    },
+    {
+      name: "Academia.edu",
+      url: "https://kuleuven.academia.edu/StefanJanssens",
+      icon: <GraduationCap className="w-6 h-6" />,
+      description: "Academic publications"
     }
   ];
 
