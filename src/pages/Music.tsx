@@ -189,7 +189,7 @@ const Music = () => {
             <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
               <h3 className="text-xl font-semibold mb-4 text-center font-helvetica">Things Must Change - Depeche Mode Covers</h3>
               <div className="flex justify-center">
-                <iframe 
+                <iframe
                   style={{border: 0, width: '700px', height: '373px'}} 
                   src="https://bandcamp.com/EmbeddedPlayer/album=1140740819/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/"
                   seamless
@@ -228,7 +228,7 @@ const Music = () => {
               <h3 className="text-xl font-semibold mb-4 text-center font-helvetica">More Releases</h3>
               <div className="flex flex-col items-center space-y-6">
                 
-                <iframe 
+                <iframe
                   style={{border: 0, width: '700px', height: '406px'}} 
                   src="https://bandcamp.com/EmbeddedPlayer/album=701429186/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"
                   seamless
@@ -237,7 +237,7 @@ const Music = () => {
                   <a href="https://amseiko.bandcamp.com/album/in-venlo">In Venlo by amseiko</a>
                 </iframe>
 
-                <iframe 
+                <iframe
                   style={{border: 0, width: '700px', height: '274px'}} 
                   src="https://bandcamp.com/EmbeddedPlayer/album=2917317512/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/"
                   seamless
