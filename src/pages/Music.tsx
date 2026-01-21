@@ -191,7 +191,7 @@ const Music = () => {
               <div className="flex justify-center">
                 <iframe
                   style={{border: 0, width: '700px', height: '373px'}} 
-                  src="https://bandcamp.com/EmbeddedPlayer/album=1140740819/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/"
+                  src="https://bandcamp.com/EmbeddedPlayer/album=1140740819/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/"
                   seamless
                   className="rounded-lg max-w-full"
                 >
@@ -230,7 +230,7 @@ const Music = () => {
                 
                 <iframe
                   style={{border: 0, width: '700px', height: '406px'}} 
-                  src="https://bandcamp.com/EmbeddedPlayer/album=701429186/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/"
+                  src="https://bandcamp.com/EmbeddedPlayer/album=701429186/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/"
                   seamless
                   className="rounded-lg max-w-full"
                 >
@@ -239,7 +239,7 @@ const Music = () => {
 
                 <iframe
                   style={{border: 0, width: '700px', height: '274px'}} 
-                  src="https://bandcamp.com/EmbeddedPlayer/album=2917317512/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/"
+                  src="https://bandcamp.com/EmbeddedPlayer/album=2917317512/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/"
                   seamless
                   className="rounded-lg max-w-full"
                 >
