@@ -51,7 +51,7 @@ const Music = () => {
                       <MusicIcon className="w-6 h-6 text-primary" />
                       <div>
                         <h3 className="text-xl font-semibold mb-2 font-helvetica">SoundCloud</h3>
-                        <p className="text-muted-foreground font-helvetica">Stream my music collection</p>
+                        <p className="text-muted-foreground font-helvetica">Latest Releases</p>
                       </div>
                     </div>
                     <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
@@ -82,7 +82,7 @@ const Music = () => {
 
               {/* Apple Music */}
               <a 
-                href="https://music.apple.com/gb/playlist/take-me-to-the-stars/pl.u-NpXm9dasMp2qb" 
+                href="https://music.apple.com/gb/playlist/take-me-to-the-stars-sj-projects/pl.u-xlyNAVdIRpbqV" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block group"
@@ -93,7 +93,7 @@ const Music = () => {
                       <MusicIcon className="w-6 h-6 text-primary" />
                       <div>
                         <h3 className="text-xl font-semibold mb-2 font-helvetica">Apple Music</h3>
-                        <p className="text-muted-foreground font-helvetica">Curated playlists</p>
+                        <p className="text-muted-foreground font-helvetica">A playlist of music projects I have been involved in</p>
                       </div>
                     </div>
                     <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
@@ -114,7 +114,7 @@ const Music = () => {
                       <MusicIcon className="w-6 h-6 text-primary" />
                       <div>
                         <h3 className="text-xl font-semibold mb-2 font-helvetica">YouTube Music</h3>
-                        <p className="text-muted-foreground font-helvetica">Video playlists</p>
+                        <p className="text-muted-foreground font-helvetica">YouTube music playlist</p>
                       </div>
                     </div>
                     <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
@@ -124,7 +124,7 @@ const Music = () => {
 
               {/* Spotify */}
               <a 
-                href="https://open.spotify.com/user/amseiko" 
+                href="https://open.spotify.com/playlist/2BslxR98tATE0IlIHJTvQg" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block group"
@@ -135,7 +135,7 @@ const Music = () => {
                       <MusicIcon className="w-6 h-6 text-primary" />
                       <div>
                         <h3 className="text-xl font-semibold mb-2 font-helvetica">Spotify</h3>
-                        <p className="text-muted-foreground font-helvetica">Streaming playlists</p>
+                        <p className="text-muted-foreground font-helvetica">A playlist of music projects I have been involved in</p>
                       </div>
                     </div>
                     <ExternalLink className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
@@ -165,6 +165,23 @@ const Music = () => {
               </a>
               
             </div>
+          </div>
+
+          {/* In Sollentuna Widget */}
+          <div className="mb-16">
+            <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
+              <h3 className="text-xl font-semibold mb-4 text-center font-helvetica">In Sollentuna</h3>
+              <div className="flex justify-center">
+                <iframe
+                  style={{border: 0, width: '700px', height: '340px'}} 
+                  src="https://bandcamp.com/EmbeddedPlayer/album=2520545409/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/"
+                  seamless
+                  className="rounded-lg max-w-full"
+                >
+                  <a href="https://amseiko.bandcamp.com/album/in-sollentuna">In Sollentuna by amseiko</a>
+                </iframe>
+              </div>
+            </Card>
           </div>
 
           {/* Things Must Change Widget */}
@@ -218,15 +235,6 @@ const Music = () => {
                   className="rounded-lg max-w-full"
                 >
                   <a href="https://amseiko.bandcamp.com/album/in-venlo">In Venlo by amseiko</a>
-                </iframe>
-
-                <iframe
-                  style={{border: 0, width: '700px', height: '340px'}} 
-                  src="https://bandcamp.com/EmbeddedPlayer/album=2520545409/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/"
-                  seamless
-                  className="rounded-lg max-w-full"
-                >
-                  <a href="https://amseiko.bandcamp.com/album/in-sollentuna">In Sollentuna by amseiko</a>
                 </iframe>
 
                 <iframe 
