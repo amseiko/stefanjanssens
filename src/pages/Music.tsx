@@ -167,23 +167,6 @@ const Music = () => {
             </div>
           </div>
 
-          {/* In Sollentuna Widget */}
-          <div className="mb-16">
-            <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
-              <h3 className="text-xl font-semibold mb-4 text-center font-helvetica">In Sollentuna</h3>
-              <div className="flex justify-center">
-                <iframe
-                  style={{border: 0, width: '700px', height: '340px'}} 
-                  src="https://bandcamp.com/EmbeddedPlayer/album=2520545409/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/"
-                  seamless
-                  className="rounded-lg max-w-full"
-                >
-                  <a href="https://amseiko.bandcamp.com/album/in-sollentuna">In Sollentuna by amseiko</a>
-                </iframe>
-              </div>
-            </Card>
-          </div>
-
           {/* Things Must Change Widget */}
           <div className="mb-16">
             <Card className="p-6 bg-card/60 backdrop-blur-sm border-border/50">
