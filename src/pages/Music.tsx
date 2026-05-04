@@ -229,6 +229,15 @@ const Music = () => {
                   <a href="https://amseiko.bandcamp.com/album/in-enoshima">In Enoshima by amseiko</a>
                 </iframe>
 
+                <iframe
+                  style={{border: 0, width: '700px', height: '340px'}} 
+                  src="https://bandcamp.com/EmbeddedPlayer/album=2520545409/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/"
+                  seamless
+                  className="rounded-lg max-w-full"
+                >
+                  <a href="https://amseiko.bandcamp.com/album/in-sollentuna">In Sollentuna by amseiko</a>
+                </iframe>
+
               </div>
             </Card>
           </div>
